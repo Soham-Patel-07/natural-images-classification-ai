@@ -6,6 +6,7 @@ A deep learning project for classifying natural images into 8 categories using t
 
 This project implements an image classification system for the MSc Computer Science module in Artificial Intelligence and Machine Vision. The model classifies natural images into 8 categories using a Convolutional Neural Network (CNN) with transfer learning.
 
+
 ## Dataset
 
 - **Source**: [Kaggle Natural Images Dataset](https://www.kaggle.com/datasets/prasunroy/natural-images)
@@ -38,19 +39,27 @@ This project implements an image classification system for the MSc Computer Scie
 - Validation accuracy and loss plots
 - Confusion matrix for performance analysis
 
-## Images
+## Sample Images
 
 ![Confusion Matrix](Screenshot/Confusion%20matrix.png)
 
-## Files
+## Project Structure
 
-| File | Description |
-|------|-------------|
-| `Code/natural_images_classification.py` | Main Python script for training |
-| `Code/Natural_Images_Classification.ipynb` | Jupyter notebook version |
-| `transfer_learning_natural_images.h5` | Trained model weights |
-| `Screenshot/` | Training progress and confusion matrix visualizations |
-| `Report/` | Project report (PDF/DOCX) |
+```
+├── Code/
+│   ├── natural_images_classification.py    # Main Python script
+│   └── Natural_Images_Classification.ipynb # Jupyter notebook
+├── Screenshot/
+│   ├── Confusion matrix.png
+│   ├── Training Progress.png
+│   └── Sample Images from each Category.png
+├── Report/
+│   ├── AI Natural Image report.pdf
+│   └── AI Natural Image report.docx
+├── LICENSE                                  # MIT License
+├── README.md                                # Project documentation
+└── transfer_learning_natural_images.h5      # Trained model weights
+```
 
 ## Requirements
 
@@ -75,3 +84,16 @@ scikit-learn
 - **Course**: MSc Computer Science
 - **University**: University of East London
 - **Completed**: May 2025
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Thanks to our module tutor for guidance and support
+- University of East London for resources and facilities
+
+---
+
+**Note:** This project was developed as a group project for the **Artificial Intelligence and Machine Vision** module during my **M.Sc. in Computer Science** at the **University of East London**, completed in **May 2025.**
