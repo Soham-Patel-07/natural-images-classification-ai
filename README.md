@@ -78,6 +78,13 @@ scikit-learn
 2. Run the training script
 3. Model will be saved as `transfer_learning_natural_images.h5`
 
+## Certifications
+
+- MATLAB Deep Learning Onramp
+- MATLAB Image Processing Onramp
+- MATLAB Machine Learning Onramp
+- MATLAB Onramp
+
 ## Course Information
 
 - **Module**: Artificial Intelligence and Machine Vision
